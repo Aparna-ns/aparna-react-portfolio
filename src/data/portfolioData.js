@@ -257,7 +257,7 @@ export const professionalExperience = [
     id: "kompetenzen",
     role: "Junior Software Engineer",
     company: "Kompetenzen Technologies",
-    period: "Current Position",
+    period: "August 2026 – Present",
     status: "Present",
     location: "Kochi, Kerala, India",
     type: "Full-Time",
@@ -290,7 +290,7 @@ export const teachingExperience = [
     role: "Python & SQL Trainer / Mentor",
     organization: "Techolas Technologies",
     location: "Kochi, Kerala, India",
-    period: "05/2024 – 01/2025",
+    period: "July 2025 – July 2026",
     summary:
       "Conducted practical training sessions and technical mentorship in Python programming, SQL databases, and full-stack development concepts.",
     contributions: [
@@ -332,3 +332,4 @@ export const educationAndCertifications = [
       "Foundational engineering coursework in system architecture, digital electronics, microprocessor systems, algorithms, and computational principles."
   }
 ];
+

@@ -86,3 +86,4 @@ export default function ProjectModal({ project, onClose }) {
     </div>
   );
 }
+

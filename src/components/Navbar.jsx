@@ -121,3 +121,4 @@ export default function Navbar({ theme, toggleTheme }) {
     </nav>
   );
 }
+
