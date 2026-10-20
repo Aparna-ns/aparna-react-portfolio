@@ -39,12 +39,30 @@ export default function Hero() {
         <div className="hero-grid">
           {/* Left Column: Introduction & CTAs */}
           <div className="hero-text-content">
-            <div className="hero-badge-status">
-              <span className="pulse-dot" />
-              <span>
-                {personalInfo.role} at{" "}
-                <strong className="hero-role-company">{personalInfo.currentCompany}</strong>
-              </span>
+            <div className="hero-author-header">
+              <div className="hero-avatar-wrapper">
+                <img
+                  src={personalInfo.profileImage || "/profile.jpg"}
+                  alt={personalInfo.name}
+                  className="hero-avatar-img"
+                  onError={(e) => {
+                    e.currentTarget.style.display = "none";
+                    if (e.currentTarget.nextElementSibling) {
+                      e.currentTarget.nextElementSibling.style.display = "flex";
+                    }
+                  }}
+                />
+                <div className="hero-avatar-fallback">AN</div>
+                <span className="hero-avatar-status" title="Active & Mentoring" />
+              </div>
+
+              <div className="hero-badge-status">
+                <span className="pulse-dot" />
+                <span>
+                  {personalInfo.role} at{" "}
+                  <strong className="hero-role-company">{personalInfo.currentCompany}</strong>
+                </span>
+              </div>
             </div>
 
             <h1 className="hero-title">

@@ -2,9 +2,9 @@ export const personalInfo = {
   name: "Aparna NS",
   role: "Junior Software Engineer | Full Stack Developer",
   currentCompany: "Kompetenzen Technologies",
-  headline: "Building practical web applications through clean code, thoughtful design, and reliable backend systems.",
+  headline: "Building practical web applications through clean code, while training and mentoring students in modern software development.",
   heroDescription:
-    "Full Stack Software Developer experienced in Python, Django, React, PostgreSQL, REST APIs, and document automation. Focused on building maintainable applications, developing robust backend functionality, and delivering clean user experiences.",
+    "Full Stack Software Developer & Technical Mentor at Kompetenzen Technologies. Experienced in Python, Django, React, PostgreSQL, REST APIs, and document automation. Passionate about engineering reliable backend systems and guiding learners through real-world software development.",
   location: "Kochi, Kerala, India",
   email: "writetoaparnans@gmail.com",
   phone: "+91 79023 39267",
@@ -12,6 +12,7 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/aparna-ns-0b698333b/",
   portfolioUrl: "https://aparna-react-portfolio.netlify.app/",
   resumeUrl: "/Aparna_NS_Resume.pdf",
+  profileImage: "/profile.jpg"
 };
 
 export const aboutMe = {
@@ -263,13 +264,14 @@ export const professionalExperience = [
     type: "Full-Time",
     isLatest: true,
     summary:
-      "Working on full-stack web application development, backend RESTful services, database management, and deployment pipelines.",
+      "Working as a Junior Software Engineer developing full-stack web applications with Python, Django, and React, while actively training and mentoring students in programming and software development.",
     responsibilities: [
-      "Developing and maintaining backend services and REST APIs using Python and Django.",
-      "Collaborating on frontend integration using React.js and modern JavaScript to deliver responsive user experiences.",
-      "Designing and querying relational databases using PostgreSQL to support application features.",
-      "Working with document processing workflows, file handling, and web application deployment procedures.",
-      "Participating in collaborative team workflows, version control with Git, and software quality maintenance."
+      "Developing and maintaining backend services and REST APIs using Python and Django Framework.",
+      "Training and mentoring students in core Python programming, SQL databases, and full-stack development concepts.",
+      "Guiding learners through practical coding exercises, debugging sessions, and real-world project problem solving.",
+      "Collaborating on frontend features using React.js and modern JavaScript to deliver intuitive user workflows.",
+      "Designing and querying relational databases using PostgreSQL to support application functionality.",
+      "Working with document automation workflows, OCR processing pipelines, and web application deployment procedures."
     ],
     technologies: [
       "Python",
@@ -277,10 +279,11 @@ export const professionalExperience = [
       "REST APIs",
       "React.js",
       "PostgreSQL",
+      "Technical Mentorship",
       "Git"
     ],
     editableNote:
-      "Responsibilities reflect verified core focus areas. Team-specific project names can be expanded here as projects release."
+      "Responsibilities reflect verified core focus areas: software engineering and student training/mentorship."
   }
 ];
 
